@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gayathri:wght@100;400;700&family=Orbitron:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+   background: #dfe1ed;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+/*********************************
+Latest News
+*********************************/
+
+.Latest{
+	/* padding-top:32px */
+}
+.Latest .Latest_title{
+	background-color: tomato;
+	border: tomato solid 1px;
+	width: 100px;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+.Latest .Latest_link{
+	border: solid 1px tomato; 
+	width: 100%;
+	padding-top: 7px;
+}
+.Latest .Latest_link a{
+	text-decoration: none;
+}
+.Latest .post_title{
+	color: red;
+	font-weight: 500;
+}
+.Latest .post_body{
+	color: black;
+	padding-right: 30px;
+}
+
+
+/* Malayalam Fount */
+
+.mal{
+	font-family: 'Gayathri', sans-serif;
+	font-size: 22px;
+	line-height: 24px;
+}
+
+/* courses */
+.courses{
+	border: solid 2px #dfe1ed;
+	cursor: pointer;
+}
+.courses .badge{
+	margin: 1px;
+}
+
+/* logo */
+
+.logo img{
+	width: auto;
+	max-height: 85px;
+	height: 100%;
+}
+.logo .logo-container{
+	padding-left: 17px;
+}
+.logo .logo-title{
+	font-size: 31px;
+}
+.logo .logo-disc{
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width: 760px) {
+	.logo .logo-title{
+		font-size: 23px;
+	}
+	.logo .logo-disc{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.logo .logo-title{
+		font-size: 20px;
+	}
+	.logo .logo-disc{
+		font-size: 12px;
+	}
+}
+
+
+/* Placement */
+.placement{
+	border: solid 2px #dfe1ed;
+}
+.placement .disc{
+	margin-bottom: 0px;
+	padding-left: 12px;
+	padding-top: 20px;
+}
+.placement .name{
+	font-weight: 600;
+}
+.placement .job{
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+.placement .firm{
+	margin-bottom: 5px;
+	line-height: 18px;
+}
+
+/* footer */
+.footer{
+	background: #818391;color: white;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+}
+.footer a:hover{
+	color: yellow;
+}
+.footer address{
+	color: white;
+	padding-left: 10px;
+}
